@@ -1,0 +1,58 @@
+{
+    "k9k6l5": {
+        "Type": "Button",
+        "Name": "B1",
+        "Position": [100.0, 0.0],
+        "Size": [100.0, 50.0],
+        "Interactable": true,
+        "Enabled": true,
+        "Type Specific": {
+            "Colors": [
+                "Normal", [0.321, 0.576, 0.611, 1.0],
+                "Hovered", [0.517, 0.741, 0.768, 1.0],
+                "Pressed", [0.207, 0.447, 0.478, 1.0],
+                "Disabled", [0.5, 0.5, 0.5, 0.5]
+            ]
+        }
+    },
+    "x5x2d8": {
+        "Type": "Button",
+        "Name": "B2",
+        "Position": [200.0, 0.0],
+        "Size": [100.0, 50.0],
+        "Interactable": true,
+        "Enabled": true,
+        "Type Specific": {
+            "Colors": [
+                "Normal", [0.321, 0.576, 0.611, 1.0],
+                "Hovered", [0.517, 0.741, 0.768, 1.0],
+                "Pressed", [0.207, 0.447, 0.478, 1.0],
+                "Disabled", [0.5, 0.5, 0.5, 0.5]
+            ]
+        }
+    },
+    "z0p8p3": {
+        "Type": "Button",
+        "Name": "B3",
+        "Position": [300.0, 0.0],
+        "Size": [100.0, 50.0],
+        "Interactable": true,
+        "Enabled": true,
+        "Type Specific": {
+            "Colors": [
+                "Normal", [0.321, 0.576, 0.611, 1.0],
+                "Hovered", [0.517, 0.741, 0.768, 1.0],
+                "Pressed", [0.207, 0.447, 0.478, 1.0],
+                "Disabled", [0.5, 0.5, 0.5, 0.5]
+            ]
+        }
+    },
+    "z0p8p1": {
+        "Type": "Text",
+        "Name": "T4",
+        "Position": [0.0, 0.0],
+        "Size": [0.0, 0.0],
+        "Interactable": false,
+        "Enabled": true
+    }
+}

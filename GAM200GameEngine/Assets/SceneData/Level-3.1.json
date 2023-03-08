@@ -1,0 +1,3295 @@
+{
+    "0": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.799999952316284, 5.0],
+            "Pos": [-3.4214186668395998, -9.831765174865723],
+            "Z": 100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.25,
+            "V": 0.83333331,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 0,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "../images/jeff.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.1],
+            "Gravity": true,
+            "MaxVel": 20.0,
+            "Mass": 1.279,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [-100.0, 0.0],
+            "RightForce": [100.0, 0.0],
+            "JumpForce": [0.0, 500.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 4.199,
+            "Width": 2.099,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "1": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.299, 1.1],
+            "Pos": [-1.317, -10.081],
+            "Z": 101.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "../images/VacuumGun.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, -10.0],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": false,
+            "MaxVel": 10.0,
+            "Mass": 1.0,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 1.0,
+            "Restitution": 0.5,
+            "DragScale": 0.1,
+            "LeftForce": [-10.0, 0.0],
+            "RightForce": [10.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 2.0,
+            "Width": 6.0,
+            "Offset": [-4.098, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Vacuum": {
+            "SuckForce": [1.0, 1.0],
+            "BlowForce": [0.0, 0.0],
+            "Parent": 0
+        }
+    },
+    "2": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.5, 2.0],
+            "Pos": [82.777, -13.574],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.71200001,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": 2,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/elevator-platform-new.png"
+        },
+        "RectCollider": {
+            "Height": 2.0,
+            "Width": 7.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Platform": {
+            "Timer": 2.0,
+            "Speed": 8.8,
+            "Direction": [0.0, 34.4],
+            "MoveBack": false,
+            "ButtonID": 1,
+            "TrapBarID": [0.0, 0.0]
+        }
+    },
+    "3": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [102.5, 10.0],
+            "Pos": [27.75, -17.25],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.71200001,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": 3,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 10.0,
+            "Width": 102.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "4": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-5.0, 6.0],
+            "Pos": [56.443, -9.071],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.5,
+            "V": 0.85714286,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 2,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/pirate.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.299,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 5.0,
+            "Width": 2.5,
+            "Offset": [-0.05, -0.4],
+            "Collided": false,
+            "Triggered": false
+        },
+        "CircleCollider": {
+            "Rad": 10.0
+        },
+        "Patrol": {
+            "Timer": 4.0,
+            "Speed": 1.0,
+            "HP": 100.0
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [16, "EnemyDead.ogg"],
+                [17, "Spotted.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "5": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [100.0, 2.5],
+            "Pos": [26.5, -13.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.025,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "6": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [21.5, 12.5],
+            "Pos": [-12.64285755, 0.78571277],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 12.5,
+            "Width": 21.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "7": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [1.0, 6.5],
+            "Pos": [-8.012, -8.901],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/JustDoor.png"
+        },
+        "RectCollider": {
+            "Height": 6.5,
+            "Width": 1.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "8": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 1.0],
+            "Pos": [21.006, -11.8],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/button-red-0.png"
+        },
+        "RectCollider": {
+            "Height": 0.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.2],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "9": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 1.0],
+            "Pos": [47.77, -11.8],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/button-red-0.png"
+        },
+        "RectCollider": {
+            "Height": 0.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.2],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "10": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [33.68, -10.887],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/box-new.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.5,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [16, "EnemyDead.ogg"],
+                [17, "Spotted.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "11": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.5, 7.0],
+            "Pos": [82.75, -18.75],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 7.0,
+            "Width": 7.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "12": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.0, 55.0],
+            "Pos": [90.0, 5.25],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 55.0,
+            "Width": 7.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "13": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [47.5, 20.25],
+            "Pos": [15.75, 16.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 20.25,
+            "Width": 47.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "14": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [5.0, 17.5],
+            "Pos": [41.979, 15.387],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 17.5,
+            "Width": 5.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "15": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [35.0, 15.0],
+            "Pos": [61.604, 14.135],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 15.0,
+            "Width": 35.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "16": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 11.75],
+            "Pos": [77.595, 0.773],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 11.75,
+            "Width": 3.598,
+            "Offset": [-0.2, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "17": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.0, 2.5],
+            "Pos": [-11.637, 25.0],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/elevator-platform-new.png"
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 7.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Platform": {
+            "Timer": 2.0,
+            "Speed": 8.5,
+            "Direction": [0.0, 25.5],
+            "MoveBack": true,
+            "ButtonID": 2,
+            "TrapBarID": [0.0, 0.0]
+        }
+    },
+    "18": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [16.0, 16.0],
+            "Pos": [-15.42, 14.71],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 16.0,
+            "Width": 16.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "19": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 43.0],
+            "Pos": [-25.548, 44.219],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 43.0,
+            "Width": 20.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "20": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [10.0, 2.5],
+            "Pos": [14.581, 25.377],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 6,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 10.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        }
+    },
+    "21": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [33.99, 27.87],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/box-new.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.5,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        }
+    },
+    "22": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 30.0],
+            "Pos": [-6.714, 50.194],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 30.0,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "23": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.7, 4.0],
+            "Pos": [2.095, 28.777],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/ExplodingBarrel.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.1],
+            "Gravity": true,
+            "MaxVel": 20.0,
+            "Mass": 1.279,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [-100.0, 0.0],
+            "RightForce": [100.0, 0.0],
+            "JumpForce": [0.0, 500.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 4.0,
+            "Width": 2.7,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "CircleCollider": {
+            "Rad": 1.0
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        },
+        "ParticleSystem": {
+            "Spawn Shape": 1,
+            "Emitter Mode": 1,
+            "Point1 for line": [0.0, 0.0],
+            "Point2 for line": [0.0, 0.0],
+            "Sphere Radius": 1.35,
+            "Offset Vec": [0.0, 0.0],
+            "Velocity": [3.5, 0.0],
+            "VelocityVariation": [0.0, 0.0],
+            "ColorBegin": [
+                0.68,
+                0.68,
+                0.68,
+                0.56
+            ],
+            "ColorEnd": [
+                0.43,
+                0.43,
+                0.43,
+                0.56
+            ],
+            "SizeBegin": 1.37,
+            "SizeEnd": 0.6,
+            "SizeVariation": 0.0,
+            "LifeTime": 1.0,
+            "Fixed duration check": true,
+            "Duration": 0.54,
+            "Alpha": 1.0,
+            "SpawnRate": 0.0,
+            "SpawnAmount": 2.0,
+            "TexPath": "DustCloud.png"
+        }
+    },
+    "24": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.7, 4.0],
+            "Pos": [56.86, 23.77],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/ExplodingBarrel.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.1],
+            "Gravity": true,
+            "MaxVel": 20.0,
+            "Mass": 1.279,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [-100.0, 0.0],
+            "RightForce": [100.0, 0.0],
+            "JumpForce": [0.0, 500.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 4.0,
+            "Width": 2.7,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "CircleCollider": {
+            "Rad": 1.0
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        },
+        "ParticleSystem": {
+            "Spawn Shape": 1,
+            "Emitter Mode": 1,
+            "Point1 for line": [0.0, 0.0],
+            "Point2 for line": [0.0, 0.0],
+            "Sphere Radius": 1.35,
+            "Offset Vec": [0.0, 0.0],
+            "Velocity": [3.5, 0.0],
+            "VelocityVariation": [0.0, 0.0],
+            "ColorBegin": [
+                0.68,
+                0.68,
+                0.68,
+                0.56
+            ],
+            "ColorEnd": [
+                0.43,
+                0.43,
+                0.43,
+                0.56
+            ],
+            "SizeBegin": 1.37,
+            "SizeEnd": 0.6,
+            "SizeVariation": 0.0,
+            "LifeTime": 1.0,
+            "Fixed duration check": true,
+            "Duration": 0.54,
+            "Alpha": 1.0,
+            "SpawnRate": 0.0,
+            "SpawnAmount": 2.0,
+            "TexPath": "DustCloud.png"
+        }
+    },
+    "25": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [70.41, 23.11],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/box-new.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.0],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.5,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        }
+    },
+    "26": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [1.0, 8.5],
+            "Pos": [-6.888, 30.888],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/BrokenDoor_Inactive.png"
+        },
+        "RectCollider": {
+            "Height": 8.5,
+            "Width": 1.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Obstacle": {}
+    },
+    "27": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [80.0, 22.0],
+            "Pos": [34.27, 55.0],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 22.0,
+            "Width": 80.0,
+            "Offset": [0.0, -0.699],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "28": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 33.5],
+            "Pos": [83.749, 49.298],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-0.png"
+        },
+        "RectCollider": {
+            "Height": 33.0,
+            "Width": 20.0,
+            "Offset": [0.0, -0.439],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "29": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [11.25, 2.5],
+            "Pos": [21.877, 1.661],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap.png"
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 11.25,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Platform": {
+            "Timer": 0.1,
+            "Speed": 15.0,
+            "Direction": [0.0, -11.0],
+            "MoveBack": true,
+            "ButtonID": 8,
+            "TrapBarID": [60.0, 91.0]
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        }
+    },
+    "30": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [11.25, 2.5],
+            "Pos": [47.93, 1.63],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap.png"
+        },
+        "RectCollider": {
+            "Height": 2.5,
+            "Width": 11.25,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Platform": {
+            "Timer": 0.1,
+            "Speed": 15.0,
+            "Direction": [0.0, -11.0],
+            "MoveBack": true,
+            "ButtonID": 9,
+            "TrapBarID": [61.0, 89.0]
+        },
+        "Attack": {
+            "Damage": 10.0,
+            "isActive": false
+        }
+    },
+    "31": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, -2.5],
+            "Pos": [75.0, 33.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "32": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 90.0,
+            "Scale": [47.5, 2.5],
+            "Pos": [87.75, 8.75],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.05555554,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "33": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [77.75, -13.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "34": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.5, 2.5],
+            "Pos": [82.75, -16.0],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.33333334,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "35": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 90.0,
+            "Scale": [10.0, 2.5],
+            "Pos": [76.86599731, 1.60308551],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.25,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "36": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [12.5, -2.5],
+            "Pos": [81.75, 33.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.2,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "37": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 90.0,
+            "Scale": [10.0, 2.5],
+            "Pos": [75.0, 38.88000106],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.25,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "38": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [80.0, -2.5],
+            "Pos": [34.52500152, 44.4615364],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.03125,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "39": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, -2.5],
+            "Pos": [-6.75, 36.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 1.0,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-5.png"
+        }
+    },
+    "40": {
+        "Transform": {
+            "Edited": true,
+            "Rot": -90.0,
+            "Scale": [7.5, 2.5],
+            "Pos": [-6.75, 39.75],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.33333334,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-6.png"
+        }
+    },
+    "41": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 90.0,
+            "Scale": [22.5, 2.5],
+            "Pos": [-6.75, 54.75],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.11111111,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "42": {
+        "Transform": {
+            "Edited": true,
+            "Rot": -90.0,
+            "Scale": [42.5, 2.5],
+            "Pos": [-16.73500061, 44.04508972],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.05882351,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "43": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [7.5, 2.5],
+            "Pos": [-11.75, 21.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.33333334,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "44": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 90.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [-6.70028352, 23.73911094],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "45": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [-6.71078395, 25.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "46": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [38.32052612, 25.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "47": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [15.0, 2.5],
+            "Pos": [2.04064822, 25.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.16666667,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "48": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [17.5, 2.5],
+            "Pos": [28.40782928, 25.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.14285713,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "49": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [40.79710006, 22.89386367],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "50": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [43.27135086, 22.89999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "51": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [32.5, 2.5],
+            "Pos": [60.45895385, 20.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.07692307,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "52": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [77.90000152, 20.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "53": {
+        "Transform": {
+            "Edited": true,
+            "Rot": -90.0,
+            "Scale": [22.5, 2.5],
+            "Pos": [77.90000152, 7.8853178],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.11111111,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "54": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, -2.5],
+            "Pos": [76.90000152, -3.90000009],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "55": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, -2.5],
+            "Pos": [77.90000152, -3.90000009],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "56": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [77.5, -2.5],
+            "Pos": [36.90000152, 7.72072124],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.03225804,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "57": {
+        "Transform": {
+            "Edited": true,
+            "Rot": -90.0,
+            "Scale": [10.0, 2.5],
+            "Pos": [-3.0999999, 2.01175951],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.25,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "58": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 1.5],
+            "Pos": [4.88571453, -8.72142791],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/ltext3.1.png"
+        }
+    },
+    "59": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, -2.5],
+            "Pos": [-13.42051601, -4.25],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.125,
+            "V": 1.0,
+            "Is Multiple": false,
+            "Is Repeating": true,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "60": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.75, 3.0],
+            "Pos": [21.82766532, 4.58423471],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_mn.png"
+        },
+        "RectCollider": {
+            "Height": 3.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "61": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.75, 3.0],
+            "Pos": [47.833, 4.584],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_mn.png"
+        },
+        "RectCollider": {
+            "Height": 3.5,
+            "Width": 2.5,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "62": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 18.0],
+            "Pos": [-13.0, -10.998],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "63": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [7.0, -3.90000009],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "64": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 20.0],
+            "Pos": [27.0, -3.60000228],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "65": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [-8.0, 32.84999847],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "66": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [-8.0, 54.70000076],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "67": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [7.0, 36.20000076],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "68": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 18.0],
+            "Pos": [27.0, 34.22222137],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "69": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 20.0],
+            "Pos": [47.0, -2.99999427],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "70": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 18.0],
+            "Pos": [47.0, 27.14285087],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "71": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 18.0],
+            "Pos": [47.0, 44.89300155],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "72": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 20.0],
+            "Pos": [67.0, -3.42856597],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "73": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [67.0, 32.14285278],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "74": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [77.0, -5.1789999],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "75": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 22.0],
+            "Pos": [77.0, 16.5],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "76": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [20.0, 18.0],
+            "Pos": [77.0, 36.5],
+            "Z": -100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/Bg_CC.png"
+        }
+    },
+    "77": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [-16.73500061, 21.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "78": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [-6.69000005, 21.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "79": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [38.32099914, 22.89399909],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "80": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [43.2709999, 20.39999961],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "81": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, -2.5],
+            "Pos": [76.86554718, 7.71148157],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "82": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, -2.5],
+            "Pos": [-3.121212, 7.71969604],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "83": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [77.75, -16.0],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "84": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, 2.5],
+            "Pos": [87.75, -16.0],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "85": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [1.07258152, 20.98387145],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "86": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, -2.5],
+            "Pos": [75.00806427, 44.45967864],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "87": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, -2.5],
+            "Pos": [87.75, 33.5],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-3.png"
+        }
+    },
+    "88": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [4.1999998, 1.0],
+            "Pos": [47.88254165, 5.99900007],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_t.png"
+        }
+    },
+    "89": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 0.5],
+            "Pos": [47.88046264, 3.01799988],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_b.png"
+        }
+    },
+    "90": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [4.1999998, 1.0],
+            "Pos": [21.89881896, 5.99855613],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_t.png"
+        }
+    },
+    "91": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 0.5],
+            "Pos": [21.86941909, 3.0178585],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/trap_b.png"
+        }
+    },
+    "92": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [18.38070487, 25.87199974],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 6,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/shock-tiles.png"
+        }
+    },
+    "93": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [15.91626071, 25.87199974],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 6,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/shock-tiles.png"
+        }
+    },
+    "94": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [13.39965724, 25.87179946],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 6,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/shock-tiles.png"
+        }
+    },
+    "95": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [2.5, 2.5],
+            "Pos": [10.93103408, 25.87199974],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 6,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/shock-tiles.png"
+        }
+    },
+    "96": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.5, -2.5],
+            "Pos": [-3.0999999, -4.25],
+            "Z": 1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "97": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [5.0, 5.0],
+            "Pos": [5.0, -9.89285659],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 0.75],
+            "TexPath": "Assets/Textures/hologram.png"
+        }
+    },
+    "EntityManager": [
+        {
+            "ID": 0,
+            "Name": "Player",
+            "Tag": "Player",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 1,
+            "Name": "Vacuum",
+            "Tag": "Vacuum",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 2,
+            "Name": "Elevator",
+            "Tag": "SwitchPlatform",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 3,
+            "Name": "Entity 3",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 4,
+            "Name": "Enemy",
+            "Tag": "Enemy",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 5,
+            "Name": "Entity 5",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 6,
+            "Name": "Entity 6",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 7,
+            "Name": "Entity 7",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 8,
+            "Name": "Button",
+            "Tag": "Button",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 9,
+            "Name": "Button",
+            "Tag": "Button",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 10,
+            "Name": "Box",
+            "Tag": "Box",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 11,
+            "Name": "Entity 11",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 12,
+            "Name": "Entity 12",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 13,
+            "Name": "Entity 13",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 14,
+            "Name": "Entity 14",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 15,
+            "Name": "Entity 15",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 16,
+            "Name": "Entity 16",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 17,
+            "Name": "Elevator",
+            "Tag": "SwitchPlatform",
+            "LayerName": "ToNextLevel"
+        },
+        {
+            "ID": 18,
+            "Name": "Entity 18",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 19,
+            "Name": "Entity 19",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 20,
+            "Name": "Shock Platform",
+            "Tag": "Shock Platform",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 21,
+            "Name": "Box",
+            "Tag": "Box",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 22,
+            "Name": "Entity 22",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 23,
+            "Name": "ExplodingBarrel",
+            "Tag": "ExplodingBarrel",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 24,
+            "Name": "ExplodingBarrel",
+            "Tag": "ExplodingBarrel",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 25,
+            "Name": "Box",
+            "Tag": "Box",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 26,
+            "Name": "Obstacle",
+            "Tag": "Obstacle",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 27,
+            "Name": "Entity 27",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 28,
+            "Name": "Entity 28",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 29,
+            "Name": "Trap",
+            "Tag": "Trap",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 30,
+            "Name": "Trap",
+            "Tag": "Trap",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 31,
+            "Name": "Entity 31",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 32,
+            "Name": "Entity 32",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 33,
+            "Name": "Entity 33",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 34,
+            "Name": "Entity 34",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 35,
+            "Name": "Entity 35",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 36,
+            "Name": "Entity 36",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 37,
+            "Name": "Entity 37",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 38,
+            "Name": "Entity 38",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 39,
+            "Name": "Entity 39",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 40,
+            "Name": "Entity 40",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 41,
+            "Name": "Entity 41",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 42,
+            "Name": "Entity 42",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 43,
+            "Name": "Entity 43",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 44,
+            "Name": "Entity 44",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 45,
+            "Name": "Entity 45",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 46,
+            "Name": "Entity 46",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 47,
+            "Name": "Entity 47",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 48,
+            "Name": "Entity 48",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 49,
+            "Name": "Entity 49",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 50,
+            "Name": "Entity 50",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 51,
+            "Name": "Entity 51",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 52,
+            "Name": "Entity 52",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 53,
+            "Name": "Entity 53",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 54,
+            "Name": "Entity 54",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 55,
+            "Name": "Entity 55",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 56,
+            "Name": "Entity 56",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 57,
+            "Name": "Entity 57",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 58,
+            "Name": "Entity 58",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 59,
+            "Name": "Entity 59",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 60,
+            "Name": "Entity 60",
+            "Tag": "Squash Bar",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 61,
+            "Name": "Entity 61",
+            "Tag": "Squash Bar",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 62,
+            "Name": "Entity 62",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 63,
+            "Name": "Entity 63",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 64,
+            "Name": "Entity 64",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 65,
+            "Name": "Entity 65",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 66,
+            "Name": "Entity 66",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 67,
+            "Name": "Entity 67",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 68,
+            "Name": "Entity 68",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 69,
+            "Name": "Entity 69",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 70,
+            "Name": "Entity 70",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 71,
+            "Name": "Entity 71",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 72,
+            "Name": "Entity 72",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 73,
+            "Name": "Entity 73",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 74,
+            "Name": "Entity 74",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 75,
+            "Name": "Entity 75",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 76,
+            "Name": "Entity 76",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 77,
+            "Name": "Entity 77",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 78,
+            "Name": "Entity 78",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 79,
+            "Name": "Entity 79",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 80,
+            "Name": "Entity 80",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 81,
+            "Name": "Entity 81",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 82,
+            "Name": "Entity 82",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 83,
+            "Name": "Entity 83",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 84,
+            "Name": "Entity 84",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 85,
+            "Name": "Entity 85",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 86,
+            "Name": "Entity 86",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 87,
+            "Name": "Entity 87",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 88,
+            "Name": "Entity 88",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 89,
+            "Name": "Entity 89",
+            "Tag": "Buttom Bar",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 90,
+            "Name": "Entity 90",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 91,
+            "Name": "Entity 91",
+            "Tag": "Buttom  Bar",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 92,
+            "Name": "Entity 92",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 93,
+            "Name": "Entity 93",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 94,
+            "Name": "Entity 94",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 95,
+            "Name": "Entity 95",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 96,
+            "Name": "Entity 96",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 97,
+            "Name": "Entity 97",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        }
+    ]
+}

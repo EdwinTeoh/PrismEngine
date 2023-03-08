@@ -1,0 +1,8 @@
+{
+    "Title": "Prism Engine",
+    "Width": 1280,
+    "Height": 720,
+    "VSync": true,
+    "Editor": true,
+    "Scene": "Menu.json"
+}

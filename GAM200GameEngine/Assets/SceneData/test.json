@@ -1,0 +1,256 @@
+{
+    "0": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [6.0, 7.0],
+            "Pos": [0.0, 10.800000190734864],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.375,
+            "V": 0.83333331,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 0,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "../images/jeff.png"
+        }
+    },
+    "1": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [8.0, 8.0],
+            "Pos": [0.0, 4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "2": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [6.0, 8.5],
+            "Pos": [7.5, 11.25],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.75,
+            "V": 0.0,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 8,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/captain.png"
+        }
+    },
+    "3": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-8.0, 8.0],
+            "Pos": [8.0, 4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "4": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 180.0,
+            "Scale": [8.0, 8.0],
+            "Pos": [0.0, -4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-2.png"
+        }
+    },
+    "5": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 180.0,
+            "Scale": [-8.0, 8.0],
+            "Pos": [-8.0, -4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "6": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 180.0,
+            "Scale": [8.0, 8.0],
+            "Pos": [8.0, -4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "7": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [8.0, 8.0],
+            "Pos": [-8.0, 4.0],
+            "Z": -1.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/platform-new-1.png"
+        }
+    },
+    "8": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [5.0, 6.0],
+            "Pos": [-8.0, 10.5],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.5,
+            "V": 0.66666662,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/mark.png"
+        }
+    },
+    "EntityManager": [
+        {
+            "ID": 0,
+            "Name": "Jeff",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 1,
+            "Name": "Entity 1",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 2,
+            "Name": "Captain",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 3,
+            "Name": "Entity 3",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 4,
+            "Name": "Entity 4",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 5,
+            "Name": "Entity 5",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 6,
+            "Name": "Entity 6",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 7,
+            "Name": "Entity 7",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 8,
+            "Name": "Mark",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        }
+    ]
+}

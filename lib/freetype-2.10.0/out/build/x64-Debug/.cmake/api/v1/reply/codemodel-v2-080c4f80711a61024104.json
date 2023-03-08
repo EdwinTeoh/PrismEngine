@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "freetype",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "freetype::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-freetype-Debug-e02b23668de029cddeaa.json",
+					"name" : "freetype",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug",
+		"source" : "D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

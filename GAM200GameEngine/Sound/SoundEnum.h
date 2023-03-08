@@ -1,0 +1,35 @@
+#pragma once
+
+enum SoundAction
+{
+    _NONE,
+    _WALK1,
+    _WALK2,
+    _JUMP,
+    _CRAWL,
+    _POP,
+    _DEFEAT,
+    _DOORBREAK,
+    _FALL,
+    _PUNCH,
+    _SCLICK,
+    _SQUASHHIT,
+    _UIBUTTON,
+    _WOBBLE,
+    _VBLOW,
+    _VSUCK,
+    _ENEMYDEAD,
+    _PLAYERSPOTTED,
+    _ZAP,
+    _EXPLOSION,
+    _SWITCH,
+    _WIN,
+    _LOSE,
+    _FLY,
+    _MAINMENU,
+    _LEVEL, 
+    _ELEVATORMOVE,
+    _ELEVATORSTART,
+    _ELEVATORSTOP,
+    _VACSHOOT
+};

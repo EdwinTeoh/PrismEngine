@@ -1,0 +1,8 @@
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/package.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/freetype.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/package_source.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/install/local.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/install.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/Digipen/Fall 2020/GAM200/Github/GAM200/GAM200GameEngine/lib/freetype-2.10.0/out/build/x64-Debug/CMakeFiles/list_install_components.dir

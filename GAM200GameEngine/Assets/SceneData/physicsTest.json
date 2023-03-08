@@ -1,0 +1,365 @@
+{
+    "0": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-3.799999952316284, 5.0],
+            "Pos": [18.122459411621095, 5.549527168273926],
+            "Z": 100.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.25,
+            "V": 0.83333331,
+            "Is Multiple": true,
+            "Is Repeating": false,
+            "Animator": 0,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "../images/jeff.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.187],
+            "Acceleration": [0.0, 0.1],
+            "Gravity": true,
+            "MaxVel": 20.0,
+            "Mass": 1.299,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [-100.0, 0.0],
+            "RightForce": [100.0, 0.0],
+            "JumpForce": [0.0, 450.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 4.199,
+            "Width": 2.099,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "1": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [-2.299, 1.1],
+            "Pos": [18.022, 5.349],
+            "Z": 101.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "../images/vacuum-0.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, -6.318],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": false,
+            "MaxVel": 10.0,
+            "Mass": 1.0,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 1.0,
+            "Restitution": 0.5,
+            "DragScale": 0.1,
+            "LeftForce": [-10.0, 0.0],
+            "RightForce": [10.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 2.0,
+            "Width": 6.0,
+            "Offset": [-4.098, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Vacuum": {
+            "SuckForce": [1.0, 1.0],
+            "BlowForce": [0.0, 0.0],
+            "Parent": 0
+        }
+    },
+    "2": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 3.0],
+            "Pos": [-24.0, 4.963],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/box-new.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.272],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.5,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 3.0,
+            "Width": 3.0,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [16, "EnemyDead.ogg"],
+                [17, "Spotted.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "4": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [60.0, 5.0],
+            "Pos": [0.0, 1.0],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/default-sprite.png"
+        },
+        "RectCollider": {
+            "Height": 5.0,
+            "Width": 60.0,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        }
+    },
+    "5": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [5.0, 50.0],
+            "Pos": [-28.0, 23.555],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/default-sprite.png"
+        },
+        "RectCollider": {
+            "Height": 50.0,
+            "Width": 5.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        }
+    },
+    "6": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [5.0, 50.0],
+            "Pos": [27.999, 23.777],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/default-sprite.png"
+        },
+        "RectCollider": {
+            "Height": 50.0,
+            "Width": 5.0,
+            "Offset": [0.0, 0.0],
+            "Collided": true,
+            "Triggered": false
+        }
+    },
+    "3": {
+        "Transform": {
+            "Edited": true,
+            "Rot": 0.0,
+            "Scale": [3.0, 3.0],
+            "Pos": [23.999, 4.963],
+            "Z": 0.0,
+            "CurrEditOp": "Nil"
+        },
+        "Sprite": {
+            "Static": false,
+            "Render": true,
+            "Set": false,
+            "U": 0.0,
+            "V": 0.0,
+            "Is Multiple": false,
+            "Is Repeating": false,
+            "Animator": -1,
+            "Color": [1.0, 1.0, 1.0, 1.0],
+            "TexPath": "Assets/Textures/box-new.png"
+        },
+        "RigidBody2D": {
+            "Velocity": [0.0, 0.272],
+            "Acceleration": [0.0, 0.0],
+            "Gravity": true,
+            "MaxVel": 100.0,
+            "Mass": 1.5,
+            "TotalRotForce": [0.0, 0.0],
+            "TotalForce": [0.0, 0.0],
+            "GravityScale": 5.0,
+            "Restitution": 0.1,
+            "DragScale": 0.001,
+            "LeftForce": [0.0, 0.0],
+            "RightForce": [0.0, 0.0],
+            "JumpForce": [0.0, 0.0],
+            "MovementSpeed": 1.0
+        },
+        "RectCollider": {
+            "Height": 3.0,
+            "Width": 3.0,
+            "Offset": [0.0, 0.0],
+            "Collided": false,
+            "Triggered": false
+        },
+        "Vacuumable": {
+            "isActive": false
+        },
+        "AudioComponent": {
+            "AudioContainer": [
+                [1, "Walk.ogg"],
+                [2, "Walk2.ogg"],
+                [3, "Jump.ogg"],
+                [4, "Crawl.ogg"],
+                [5, "Pop.ogg"],
+                [14, "VBlow.ogg"],
+                [15, "VSucc.ogg"],
+                [16, "EnemyDead.ogg"],
+                [17, "Spotted.ogg"],
+                [23, "Fly.ogg"]
+            ]
+        }
+    },
+    "EntityManager": [
+        {
+            "ID": 0,
+            "Name": "Player",
+            "Tag": "Player",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 1,
+            "Name": "Vacuum",
+            "Tag": "Vacuum",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 2,
+            "Name": "LeBox",
+            "Tag": "Box",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 3,
+            "Name": "LeBox2",
+            "Tag": "Box",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 4,
+            "Name": "LePlatform",
+            "Tag": "Wall",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 5,
+            "Name": "Wall1",
+            "Tag": "NOT TAGGED",
+            "LayerName": "NO LAYER"
+        },
+        {
+            "ID": 6,
+            "Name": "Wall2",
+            "Tag": "Wall",
+            "LayerName": "NO LAYER"
+        }
+        
+    ]
+}
